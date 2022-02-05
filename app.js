@@ -4,6 +4,7 @@ const list = document.querySelector("ul");
 
 const onAddGoalPressed = () => {
   const textInput = inputElement.value;
+  if (textInput == "") return;
 
   const listElemnt = document.createElement("li");
 
